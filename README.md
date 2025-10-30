@@ -1,6 +1,6 @@
 # Lead Scoring API
 
-This project is a backend service that scores sales leads based on **product/offer context** and **prospect data**. It combines **rule-based logic** with **AI reasoning** to classify each lead's intent as **High**, **Medium**, or **Low**, returning a final score between 0–100[web:1][web:2].
+This project is a backend service that scores sales leads based on **product/offer context** and **prospect data**. It combines **rule-based logic** with **AI reasoning** to classify each lead's intent as **High**, **Medium**, or **Low**, returning a final score between 0–100.
 
 ---
 
@@ -113,7 +113,7 @@ You can view or export the results using `/results`.
 ## 🧠 AI Integration
 
 The AI Layer uses the offer + lead context to ask:  
-**"Classify intent (High / Medium / Low) and explain in 1–2 sentences."**[web:6][web:7]
+**"Classify intent (High / Medium / Low) and explain in 1–2 sentences."**.
 
 The response is parsed to extract:
 
