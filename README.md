@@ -120,5 +120,7 @@ The response is parsed to extract:
 - **intent** → converted to numerical AI score
 - **reasoning** → stored for output
 
+## 🎥 Demo Video
 
+> **📹 [Click here to watch the complete API demo walkthrough](https://www.loom.com/share/9f0610c2562f4c56bc7f2e7e1426d6d0)**
 
