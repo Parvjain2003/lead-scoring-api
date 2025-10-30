@@ -20,7 +20,7 @@ exports.runScoring = async (req, res, next) => {
 
     const results = await scoringService.scoreLeads(leads, offers);
     await storage.saveResults(results);
-    res.json({ ok: true, count: results.length, results });
+    res.json({ count: results.length });
   } catch (err) {
     next(err);
   }
@@ -29,7 +29,10 @@ exports.runScoring = async (req, res, next) => {
 exports.getResults = async (req, res, next) => {
   try {
     const results = await storage.getResults();
-    res.json(results || []);
+    const filtered = (results || []).map(
+      ({ id, industry, location, linkedin_bio, ...rest }) => rest
+    );
+    res.json(filtered || []);
   } catch (err) {
     next(err);
   }

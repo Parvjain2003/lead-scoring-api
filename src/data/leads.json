@@ -1,88 +1,7 @@
 [
   {
-    "id": "cbaa827c-67a2-417c-aee1-2cd65b22bdf2",
-    "name": "Aarav Mehta",
-    "role": "Software Engineer",
-    "company": "Zenith Labs",
-    "industry": "Information Technology",
-    "location": "Bengaluru, India",
-    "linkedin_bio": "Passionate about building scalable web apps. Interested in clean code and great UX."
-  },
-  {
-    "id": "7937fc44-b915-4e4a-9d7d-5a6fe8a2878f",
-    "name": "Priya Sharma",
-    "role": "Product Manager",
-    "company": "BlueWave Tech",
-    "industry": "FinTech",
-    "location": "Mumbai, India",
-    "linkedin_bio": "Product leader with experience in B2B SaaS and customer-centric roadmaps."
-  },
-  {
-    "id": "1cf0456c-d072-4af6-a706-0914a1e9bdfb",
-    "name": "Rohan Kapoor",
-    "role": "Data Scientist",
-    "company": "AstraSoft",
-    "industry": "Healthcare",
-    "location": "New Delhi, India",
-    "linkedin_bio": "Data enthusiast who turns data into actionable insights and ML prototypes."
-  },
-  {
-    "id": "84fa6779-fa9f-4cf0-99ee-e820c5df3513",
-    "name": "Sanya Roy",
-    "role": "UX Designer",
-    "company": "GreenLeaf Solutions",
-    "industry": "E-commerce",
-    "location": "Pune, India",
-    "linkedin_bio": "Designer focused on human-centered experiences and front-end performance."
-  },
-  {
-    "id": "9183e787-c521-4320-9b8a-18a97a1d7871",
-    "name": "Vikram Singh",
-    "role": "Backend Developer",
-    "company": "OrbitX",
-    "industry": "Education",
-    "location": "Hyderabad, India",
-    "linkedin_bio": "Backend developer specializing in Node.js and distributed systems."
-  },
-  {
-    "id": "f4c77c81-fb30-4661-87cd-1ec01f2bd799",
-    "name": "Nisha Patel",
-    "role": "Frontend Developer",
-    "company": "NimbusWorks",
-    "industry": "SaaS",
-    "location": "Chennai, India",
-    "linkedin_bio": "Frontend engineer who loves React, accessibility, and performance tuning."
-  },
-  {
-    "id": "1dbf0d16-a43a-48d6-8be4-f8c4c3376829",
-    "name": "Karan Verma",
-    "role": "DevOps Engineer",
-    "company": "Vertex Dynamics",
-    "industry": "Telecommunications",
-    "location": "Kolkata, India",
-    "linkedin_bio": "DevOps professional automating CI/CD pipelines and cloud infrastructure."
-  },
-  {
-    "id": "10cc61f7-5fe0-4234-8401-e328e10a4d5f",
-    "name": "Ananya Desai",
-    "role": "QA Engineer",
-    "company": "Helix Innovations",
-    "industry": "Automotive",
-    "location": "Ahmedabad, India",
-    "linkedin_bio": "QA engineer ensuring high-quality releases through automation and testing."
-  },
-  {
-    "id": "c43f3c70-dbbf-47c2-b3af-58c372facd6b",
-    "name": "Rahul Joshi",
-    "role": "Sales Manager",
-    "company": "Pioneer Systems",
-    "industry": "Energy",
-    "location": "Gurugram, India",
-    "linkedin_bio": "Sales leader driving revenue for enterprise SaaS products across APAC."
-  },
-  {
-    "id": "a3ae2c61-2dea-422c-bb17-f942240a989a",
-    "name": "Isha Nair",
+    "id": "329a8617-4bce-4c75-ad3e-8fe474857692",
+    "name": "Ananya Khanna",
     "role": "Marketing Specialist",
     "company": "LumenCore",
     "industry": "Media & Entertainment",
@@ -90,8 +9,8 @@
     "linkedin_bio": "Marketing specialist crafting growth strategies and content for startups."
   },
   {
-    "id": "e26c2d2f-d74b-4d53-a59d-428d19c50208",
-    "name": "Dev Malhotra",
+    "id": "fd2dca72-916d-4720-9ecf-551a14fa7d35",
+    "name": "Rohit Desai",
     "role": "Business Analyst",
     "company": "NextEra Digital",
     "industry": "Real Estate",
@@ -99,8 +18,8 @@
     "linkedin_bio": "Business analyst bridging product and engineering with data-driven decisions."
   },
   {
-    "id": "34616d46-5e16-480b-bba7-1f2b51585ecb",
-    "name": "Maya Iyer",
+    "id": "0c7066f1-5f88-4e00-a02f-5c809638f64d",
+    "name": "Meera D’Souza",
     "role": "HR Manager",
     "company": "Cobalt Ventures",
     "industry": "Logistics",
@@ -108,8 +27,8 @@
     "linkedin_bio": "HR professional focused on talent acquisition and organizational culture."
   },
   {
-    "id": "5707e609-b061-4789-8a19-9ad0e4c1978e",
-    "name": "Sameer Gupta",
+    "id": "565ee952-8e1e-4a14-903d-79b1ac94cbff",
+    "name": "Arjun Mehta",
     "role": "Technical Lead",
     "company": "SummitAI",
     "industry": "Biotechnology",
@@ -117,8 +36,8 @@
     "linkedin_bio": "Technical lead mentoring teams to deliver high-impact features reliably."
   },
   {
-    "id": "8334d6ce-33bd-4fac-83f3-c06ec74e6409",
-    "name": "Leena Rao",
+    "id": "a05faf0a-263a-4a04-8f3b-1fb66be58566",
+    "name": "Priya Bansal",
     "role": "Full Stack Developer",
     "company": "EchoLogix",
     "industry": "Cybersecurity",

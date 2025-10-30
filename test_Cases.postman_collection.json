@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "1e06c319-dfc4-4c5a-8795-2426c3799b54",
+		"name": "Test Cases",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23636290"
+	},
+	"item": [
+		{
+			"name": "POST /offer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"AI Outreach Automation\",\r\n  \"value_props\": [\"24/7 outreach\", \"6x more meetings\"],\r\n  \"ideal_use_cases\": [\"B2B SaaS mid-market\"]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/offer"
+			},
+			"response": []
+		},
+		{
+			"name": "POST /leads/upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "c:\\Users\\parvj\\Downloads\\professionals_data.csv"
+						}
+					]
+				},
+				"url": "http://localhost:3000/leads/upload"
+			},
+			"response": []
+		},
+		{
+			"name": "POST /score",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:3000/score"
+			},
+			"response": []
+		},
+		{
+			"name": "GET /score/results",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/score/results"
+			},
+			"response": []
+		},
+		{
+			"name": "GET /score/results/export",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/score/results/export"
+			},
+			"response": []
+		}
+	]
+}

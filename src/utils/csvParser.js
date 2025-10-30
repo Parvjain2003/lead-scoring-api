@@ -1,6 +1,5 @@
 const fs = require("fs");
 const csv = require("csv-parser");
-const { v4: uuidv4 } = require("uuid");
 
 function parseCsvFile(path) {
   return new Promise((resolve, reject) => {
@@ -14,7 +13,6 @@ function parseCsvFile(path) {
           const key = k.trim().toLowerCase().replace(/\s+/g, "_");
           normalized[key] = v ? v.trim() : "";
         });
-        if (!normalized.id) normalized.id = uuidv4();
         rows.push(normalized);
       })
       .on("end", () => resolve(rows))

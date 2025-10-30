@@ -19,7 +19,7 @@ exports.uploadCSV = async (req, res, next) => {
     }));
 
     await storage.saveLeads(normalized);
-    res.json({ ok: true, count: normalized.length });
+    res.json({ count: normalized.length });
   } catch (err) {
     next(err);
   }

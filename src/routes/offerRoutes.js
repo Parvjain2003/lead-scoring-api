@@ -3,6 +3,6 @@ const router = express.Router();
 const offerController = require("../controllers/offerController");
 
 router.post("/", offerController.createOffer);
-router.get("/", offerController.getOffer); // fetch current offer
+router.get("/", offerController.getOffer);
 
 module.exports = router;

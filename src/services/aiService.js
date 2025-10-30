@@ -60,7 +60,6 @@ async function classifyIntent({ lead, offer }) {
       }
     }
 
-    // sanitize intent
     let intent = parsed.intent || "Low";
     if (!["High", "Medium", "Low"].includes(intent)) intent = "Failure";
 
