@@ -2,7 +2,8 @@ require("dotenv").config();
 
 const express = require("express");
 const cors = require("cors");
-const offerRoutes = require("./routes/offerRoutes");
+const offerRoutes = require("./src/routes/offerRoutes");
+const leadRoutes = require("./src/routes/leadRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -12,6 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/offer", offerRoutes);
+app.use("/leads", leadRoutes);
 
 app.get("/", (req, res) => res.json({ ok: true, msg: "Lead Scoring API" }));
 

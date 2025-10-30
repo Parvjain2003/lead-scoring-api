@@ -1,13 +1,15 @@
 const storage = require("../services/dataServices");
+const { validateOffer } = require("../utils/offerValidator");
 
 exports.createOffer = async (req, res, next) => {
   try {
-    const body = req.body;
-    if (!body || !body.name) {
-      return res.status(400).json({ error: "Offer name required" });
+    const error = validateOffer(req.body);
+    if (error) {
+      return res.status(400).json({ error });
     }
-    await storage.saveOffer(body);
-    res.json({ ok: true, offer: body });
+
+    await storage.saveOffer(req.body);
+    res.json({ offer: req.body });
   } catch (err) {
     next(err);
   }

@@ -3,6 +3,7 @@ const path = require("path");
 
 const dataDir = path.join(__dirname, "..", "data");
 const offersFile = path.join(dataDir, "offer.json");
+const leadsFile = path.join(dataDir, "leads.json");
 
 async function ensureDir() {
   try {
@@ -24,7 +25,23 @@ async function getOffer() {
   }
 }
 
+async function saveLeads(leads) {
+  await ensureDir();
+  await fs.writeFile(leadsFile, JSON.stringify(leads, null, 2));
+}
+
+async function getLeads() {
+  try {
+    const str = await fs.readFile(leadsFile, "utf8");
+    return JSON.parse(str);
+  } catch (e) {
+    return [];
+  }
+}
+
 module.exports = {
   saveOffer,
   getOffer,
+  saveLeads,
+  getLeads,
 };
