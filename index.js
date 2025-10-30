@@ -4,6 +4,7 @@ const express = require("express");
 const cors = require("cors");
 const offerRoutes = require("./src/routes/offerRoutes");
 const leadRoutes = require("./src/routes/leadRoutes");
+const scoreRoutes = require("./src/routes/scoreRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -14,6 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/offer", offerRoutes);
 app.use("/leads", leadRoutes);
+app.use("/score", scoreRoutes);
 
 app.get("/", (req, res) => res.json({ ok: true, msg: "Lead Scoring API" }));
 
